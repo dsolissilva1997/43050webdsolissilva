@@ -184,3 +184,43 @@ footer {
 .card {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+.mini {
+    display: none;
+}
+
+@media (max-width: 550px) {
+.mini {
+     display:block;
+}
+.gran {
+    display:none;
+}
+}
+
+@media (max-width: 500px) {
+    footer {
+        text-align: center;
+    }
+    
+    .contenidoFooter {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .siguenosDerecha, .logoIzquierda, .abajo {
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }
+    
+    .siguenosDerecha a {
+        color: white;
+        margin: 0 10px;
+    }
+    
+    .abajo {
+        font-size: 10px;
+    }
+}
