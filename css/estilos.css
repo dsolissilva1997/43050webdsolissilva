@@ -150,6 +150,10 @@ main .contenedor-presentacion h2 {
 .img-redonda {
   border-radius: 10% 10% 10% 10%; }
 
+.mapa {
+  width: 500px;
+  height: 500px; }
+
 footer {
   background-color: #9F91CC;
   padding: 20px 0;
@@ -216,4 +220,8 @@ footer div div i {
 @media (max-width: 767px) {
   .vehiculo-card {
     margin-bottom: 20px;
+    padding: 20px; }
+  .img-redonda {
+    margin-top: 30px;
+    margin-bottom: 30px;
     padding: 20px; } }
