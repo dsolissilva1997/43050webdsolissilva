@@ -1,0 +1,46 @@
+footer {
+    background-color: $color-secondary;
+    padding: 20px 0;
+    color: white;
+}
+footer div div i{
+    font-size: 50px;
+    padding: 8px;
+}
+.contenidoFooter {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 20px;
+    align-items: center;
+}
+
+.logoIzquierda {
+    padding-left: 50px;
+    text-align: right;
+    color: white;
+}
+
+.siguenosDerecha {
+    padding-right: 50px;
+    text-align: right;
+}
+
+.siguenosDerecha a {
+    color: white;
+    transition: 1s;
+}
+
+.siguenosDerecha a:hover {
+    color: $color-primary;
+    transform: scale(1.1)
+}
+
+.blancoLogo {
+    color: white;
+}
+
+.abajo {
+    grid-column: 1 / span 2;
+    text-align: center;
+    color: white;
+}
